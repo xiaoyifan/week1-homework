@@ -19,3 +19,8 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 #
 # Your code goes here:
 #
+number = 1
+for star in planets
+  puts "Planet #{number}: #{star}"
+  number = number + 1
+end
